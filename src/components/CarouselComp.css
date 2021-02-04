@@ -1,0 +1,52 @@
+.carousel {
+  width: 600px;
+  margin: auto;
+}
+
+.carousel-control-prev {
+  margin-left: -100px;
+}
+
+.carousel-control-next {
+  margin-right: -100px;
+}
+
+.carousel img {
+  height: 150px;
+  width: 150px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.carousel h2 {
+  width: fit-content;
+  margin: auto;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.carousel .name {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.carousel .title {
+  color: var(--secondary);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.carousel p {
+  min-height: 100px;
+  margin-top: 10px;
+  color: var(--tertiary);
+}
+
+svg {
+  display: block;
+  margin: auto;
+  color: var(--primary);
+  font-size: 30px;
+}
